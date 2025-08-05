@@ -1,0 +1,46 @@
+body {
+    background-image: url('pics/ABC.jpg');
+ /* path relative to your CSS file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+    background-color: #f0f8ff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: rgb(215, 166, 86); /* You can use any color like #333, navy, etc. */
+}
+
+label {
+    color: rgb(172, 133, 70); /* Dark blue or any color you prefer */
+    font-weight: 500; /* Optional: makes it semi-bold */
+}
+
+.btn-primary {
+    background-color: #608e6b;  /* Green or any color */
+    border-color: #628f6d;
+    color: white;               /* Text color */
+}
+
+.btn-primary:hover {
+    background-color: #218838;  /* Darker green on hover */
+    border-color: #1e7e34;
+}
+
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+}
